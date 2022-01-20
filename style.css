@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+}
+
+.navbar{
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	background-image: linear-gradient(to left,red,black);
+	height: 70px;
+}
+
+#logo{
+
+	position: absolute;
+	top: 5px;
+	width: 120px;
+	height: 60px;
+}
+
+nav{
+	margin-left: 80%;
+	padding: 25px;
+	word-spacing: 50px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 1000;
+}
+
+a:hover{
+	background-color: #fa5448;
+	font-size: 23px;
+	padding: 10px;
+	border-radius: 50px;
+}
+
+.baner{
+	text-align:center;
+}
+#baner_img{
+	margin-top: 8%;
+	width: 800px;
+	height: 500px;
+	box-shadow: 10px 10px 60px red;
+}
+
+h2{
+	text-align: center;
+	margin-top: 4%;
+	font-size: 70px;
+}
+
+.movie{
+	margin-top: 3%;
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.mg{
+
+	margin-top: 5%;
+}
+
+.m{
+	height: 300px;
+	width: 200px;
+	box-shadow: 5px 5px 20px red;
+}
+
+p{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+@media (max-width: 1237px){
+	nav{
+	margin-left: 70%;
+	}
+}
+
+@media (max-width: 769px){
+	.baner{
+		text-align:center;
+	}
+	#baner_img{
+		margin-top: 8%;
+		width: 600px;
+		height: 300px;
+		box-shadow: 10px 10px 60px red;
+	}
+
+	nav{
+	margin-left: 60%;
+	}
+}
+
+@media (max-width: 426px){
+	.baner{
+		text-align:center;
+	}
+	#baner_img{
+		margin-top: 16%;
+		margin-left: -10%;
+		width: 300px;
+		height: 200px;
+		box-shadow: 10px 10px 60px red;
+	}
+
+	nav{
+	margin-left: 40%;
+	word-spacing: 20px;
+	}
+
+	a:hover{
+		background-color: #fa5448;
+		font-size: 21px;
+		padding: 5px;
+		border-radius: 50px;
+	}
+
+	.movie{
+		margin-top: 3%;
+		text-align: center;
+		display: grid;
+		grid-template-columns: auto;
+	}
+}
+
+@media (max-width: 376px){
+	nav{
+		margin-left: 40%;
+		word-spacing: 15px;
+	}
+
+	a{
+		font-size: 18px;
+	}
+
+	a:hover{
+		background-color: #fa5448;
+		font-size: 19px;
+		border-radius: 50px;
+	}
+
+	.baner{
+		text-align:center;
+	}
+	#baner_img{
+		margin-top: 16%;
+		margin-left: -13%;
+		width: 300px;
+		height: 200px;
+		box-shadow: 10px 10px 60px red;
+	}	
+}
